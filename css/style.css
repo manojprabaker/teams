@@ -1,0 +1,88 @@
+
+body {
+	
+	font-family: 'Merriweather Sans', sans-serif;
+    background:linear-gradient(to top, #B7EBDD 0%, #E3C7FF 100%);
+	
+	-webkit-user-select: none;
+}
+
+.main-container {
+
+	text-align:center;
+}
+ 
+.containerheading {
+	padding-top:30px;
+	font-size:20px;
+	color:#222222;
+	line-height:30px;
+	
+}
+
+.insidecontainer {
+	margin:auto;
+	padding:30px 0px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+ /* width:1400px;
+	padding-top:28px;
+    padding-bottom:18px; */
+}
+.members {
+	margin:10px;
+	padding:22px;
+	max-width:30%;
+	border:0px solid black;
+	border-radius:25px;
+	box-shadow:5px 5px 12px #FF6464;
+	box-sizing:border-box;
+}
+
+img.profileimg {
+	height:200px;
+	width:200px;
+}
+
+.name {
+    padding:10px;
+	font-weight:700;
+	font-size:20px;
+  }
+
+.designation {
+	font-style:italic;
+	padding:20px;
+	font-size:18px;
+}
+.ourself {
+	font-weight:400;
+	font-size:16px;
+	color:#2B2B2B;
+	margin-top:20px;
+	word-spacing:10px;
+	
+}
+
+.socialmedia img {
+	height:35px;
+	weight:35px;
+	padding:10px;
+}
+
+.socialmedia img:hover {
+	transform:scale(2);
+}
+.profileimg:hover {
+	transform:scale(1.2);
+}
+.members:hover {
+  background-color:#fff;
+}
+  @media screen and (max-width: 600px) {
+	  div.members {
+		  max-width:100%;
+	  }
+  }
+
